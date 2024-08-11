@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo
+server: 
+  port: 8081
+azure:
+  storage:
+    account-name: ${AZURE_STORAGE_ACCOUNT_NAME}
+    url-path: ${URL_PATH}
+    key: ${KEY}
+    
+
+
